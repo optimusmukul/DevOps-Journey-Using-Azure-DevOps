@@ -1,7 +1,7 @@
 #!/bin/sh
 
-RESOURCE_GROUP_NAME="devops-journey-rg"
-STORAGE_ACCOUNT_NAME="devopsjourneyazuredevops"
+RESOURCE_GROUP_NAME="rg-az400practice"
+STORAGE_ACCOUNT_NAME="saaz400practice"
 
 # Create Resource Group
 az group create -l uksouth -n $RESOURCE_GROUP_NAME
