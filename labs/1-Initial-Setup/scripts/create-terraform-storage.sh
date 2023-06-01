@@ -1,10 +1,10 @@
 #!/bin/sh
 
-RESOURCE_GROUP_NAME="rg-az400practice"
-STORAGE_ACCOUNT_NAME="saaz400practice"
+RESOURCE_GROUP_NAME="resource-group-resource-deployment-using-terraform"
+STORAGE_ACCOUNT_NAME="storage-account-resource-deployment-using-terraform"
 
 # Create Resource Group
-az group create -l uksouth -n $RESOURCE_GROUP_NAME
+az group create -l eastus -n $RESOURCE_GROUP_NAME
 
 # Create Storage Account
 az storage account create -n $STORAGE_ACCOUNT_NAME -g $RESOURCE_GROUP_NAME -l uksouth --sku Standard_LRS
